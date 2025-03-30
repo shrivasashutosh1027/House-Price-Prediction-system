@@ -7,7 +7,7 @@ with open ("house_price_model.pkl","rb") as f:
     model=pickle.load(f)
 
 st.title("House Price Prediction App")
-st.title("prediction")
+
 
 #Input fields
 lot_area = st.number_input("Lot Area(sq ft)",min_value=500,max_value=100000, step=100)
