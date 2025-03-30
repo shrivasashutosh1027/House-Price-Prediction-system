@@ -6,9 +6,6 @@ import numpy as np
 with open ("house_price_model.pkl","rb") as f:
     model=pickle.load(f)
 
-# ashutosh bolte public house prediction kar rhe bc
-# ashu loves me 
-
 st.title("House Price Prediction App")
 
 #Input fields
