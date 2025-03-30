@@ -16,7 +16,7 @@ if page=="Introduction":
 
 #Prediction Page
 elif page=="Prediction":
-    st.write_stream("Prediction")
+    st.write("Prediction")
     #Input fields
     lot_area = st.number_input("Lot Area(sq ft)",min_value=500,max_value=100000, step=100)
     year_built = st.number_input("Year Built",min_value=1800,max_value=2024, step=1)
